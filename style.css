@@ -315,6 +315,57 @@ body {
   color: #fff;
   font-size: 21px;
 }
+
+/* Choose us section */
+.choose-us {
+  width: 100%;
+}
+.choose-us .choose-us-container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.choose-us-header {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.choose-us-header h1 {
+  color: var(--section-title-color);
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.choose-us-header p {
+  color: var(--p-color);
+}
+.choose-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.choose-cards .card {
+  width: 520px;
+  height: auto;
+  padding: 32px;
+  border-radius: 16px;
+  margin: 12px;
+  background: rgba(233, 68, 68, 0.05);
+}
+.choose-cards .card h2 {
+  font-size: 20px;
+  color: var(--section-title-color);
+}
+.choose-cards .card p {
+  color: var(--p-color);
+}
+.choose-cards #service {
+  background: rgba(41, 206, 246, 0.05);
+}
+.choose-cards .card h2 {
+  padding: 30px 0 10px 0;
+}
 /* Responsive for mobile device */
 @media (max-width: 576px) {
   /* nav-section */
@@ -421,7 +472,6 @@ body {
     background-size: 100% 100%;
     font-size: 18px;
     border-radius: 16px;
-
   }
   .second-row .srilanka {
     width: 100%;
@@ -429,7 +479,6 @@ body {
     background-size: 100% 100%;
     font-size: 18px;
     border-radius: 16px;
-
   }
   .second-row .north-america {
     width: 100%;
@@ -437,7 +486,6 @@ body {
     background-size: 100% 100%;
     font-size: 18px;
     border-radius: 16px;
-
   }
   .second-row .kashmir {
     width: 100%;
@@ -445,7 +493,6 @@ body {
     background-size: 100% 100%;
     font-size: 18px;
     border-radius: 16px;
-
   }
   .third-row .bangladesh {
     width: 100%;
@@ -453,7 +500,6 @@ body {
     background-size: 100% 100%;
     font-size: 18px;
     border-radius: 16px;
-
   }
   .third-row .bandarban {
     width: 100%;
@@ -461,6 +507,22 @@ body {
     background-size: 100% 100%;
     font-size: 18px;
     border-radius: 16px;
-
+  }
+  /* choose us section */
+  .choose-us-header h1 {
+    font-size: 20px;
+    padding-bottom: 16px;
+  }
+  .choose-us-header p{
+    font-size: 14px;
+  }
+  .choose-us .choose-us-container {
+    padding-top: 35px;
+  }
+  .choose-us-header {
+    padding-bottom: 16px;
+  }
+  .card p{
+    font-size: 14px;
   }
 }
