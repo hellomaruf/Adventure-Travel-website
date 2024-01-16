@@ -98,6 +98,9 @@ body {
   font-size: 64px;
   color: #fff;
 }
+#active {
+  color: var(--main-color);
+}
 .hero-container .hero-content p {
   max-width: 760px;
   padding: 24px 0 40px 0;
@@ -126,6 +129,13 @@ body {
   height: 52px;
   margin: 10px;
   padding: 16px;
+}
+form select {
+  font-size: 16px;
+  color: var(--p-color);
+}
+form input::placeholder {
+  font-size: 16px;
 }
 .hero-form form .form-btn {
   width: 174px;
@@ -567,6 +577,55 @@ body {
 .newsletter-img {
   position: relative;
 }
+/* footer container */
+.footer-container {
+  width: 100%;
+  margin-top: 90px;
+  height: 500px;
+  background: rgba(19, 19, 24, 0.05);
+  display: flex;
+  align-items: center;
+}
+.footer-container .footer-content {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 25px;
+  text-align: center;
+}
+.footer-logo h1 .travel {
+  color: var(--main-color);
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 16px;
+}
+.footer-logo h1 {
+  font-size: 32px;
+  padding-left: 15px;
+  color: var(--section-title-color);
+}
+.footer-content p {
+  color: var(--p-color);
+  padding-bottom: 32px;
+  width: 600px;
+}
+.footer-icon i {
+  font-size: 26px;
+  margin: 0 10px;
+  background-color: #dddddd;
+  padding: 8px;
+  border-radius: 20px;
+}
+.footer-content hr {
+  margin: 50px 0;
+}
+.footer-logo img {
+  width: 50px;
+}
+/* footer section */
+
 /* Responsive for mobile device */
 @media (max-width: 576px) {
   /* nav-section */
@@ -775,6 +834,7 @@ body {
     max-width: 100%;
     height: auto;
     border-radius: 16px;
+    margin-top: 24px;
   }
   .perfect-place .perfect-place-container {
     padding-top: 0;
@@ -819,5 +879,25 @@ body {
   }
   .text-content h2 {
     font-size: 15px;
+  }
+  .newsletter-content .form-left {
+    padding: 23px;
+  }
+  /* footer section */
+  .footer-logo h1 {
+    font-size: 20px;
+  }
+  .footer-logo img {
+    width: 40px;
+  }
+  .footer-content p {
+    padding-bottom: 18px;
+    font-size: 14px;
+  }
+  .footer-content hr {
+    margin: 24px 0;
+  }
+  .footer-container {
+    margin-top: 20px;
   }
 }
