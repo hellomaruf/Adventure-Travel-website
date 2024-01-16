@@ -587,7 +587,7 @@ form input::placeholder {
   align-items: center;
 }
 .footer-container .footer-content {
-  max-width: 1180px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 25px;
   text-align: center;
@@ -609,7 +609,7 @@ form input::placeholder {
 .footer-content p {
   color: var(--p-color);
   padding-bottom: 32px;
-  width: 600px;
+  width: auto;
 }
 .footer-icon i {
   font-size: 26px;
